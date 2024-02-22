@@ -1,5 +1,10 @@
+import Body from "./components/Body";
 const App = () => {
-  return <h1>Hello World</h1>;
+  return (
+    <div>
+      <Body />
+    </div>
+  );
 };
 
 export default App;
